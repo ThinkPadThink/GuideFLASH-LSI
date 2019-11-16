@@ -1,7 +1,7 @@
 # Гайд по перепрошивке RAID контроллера Dell PERC H310 aka LSI 9240/IBM M1015 в HBA режим (он же IT Mode)
 
 
-*Данный гайд является переводом других гайдов [фактически мой старый гайд](http://xeonowiki.wikidot.com/lga2011-3) и [информация анона]( https://pastebin.com/NJFQVgE4)*
+*Данный гайд является переводом другого гайда [оригинальный гайд](https://tylermade.net/2017/06/27/how-to-crossflash-perc-h310-to-it-mode-lsi-9211-8i-firmware-hba-for-freenas-unraid/)*
 
 *__При копировании информации обязательно указывайте оригинальный источник.__* 
 
