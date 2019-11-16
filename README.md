@@ -1,17 +1,15 @@
-# Гайд по перепрошивке RAID контроллера Dell PERC H310 aka LSI 9240/IBM M1015 в HBA режим (он же IT Mode)
+# Гайд по перепрошивке RAID контроллера Dell PERC H310 в HBA режим (он же IT Mode)
 
-
+![Фотка H310](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/h310.jpg?raw=true)
 *Данный гайд является переводом другого гайда [оригинальный гайд](https://tylermade.net/2017/06/27/how-to-crossflash-perc-h310-to-it-mode-lsi-9211-8i-firmware-hba-for-freenas-unraid/)*
 
 *__При копировании информации обязательно указывайте оригинальный источник.__* 
-
 
 # Для чего это нужно?
 
 Например у вас есть ненужный контроллер и вы хотите его использовать для простого подключения дисков или для Soft RAID (ZFS, LVM, Storage Spaces и т.п.) или просто для подключения SAS/SATA дисков.
 
 ## Что для этого нужно?
-
 * SAS контроллер
 * USB флешка, подойдёт любая, например на 1 гб.
 
@@ -38,3 +36,8 @@
 ![Фотка SAS Address](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/2118it.jpg?raw=true)
 ![Фотка SAS Address](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/yes.jpg?raw=true)
 13) Всё! перезагружайтесь в Windows/Linux и у вас он будет отображаться как надо в Windows: Dell HBA 6 Gbit/s, в Linux как-то так же. 
+
+
+**PS** Данный гайд в теории так же подходит для контроллера IBM M1015 и оригинального LSI MegaRAID 9240
+![M1015](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/ibm%20m1015.jpg?raw=true)
+![9240](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/9240.jpg?raw=true)
