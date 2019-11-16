@@ -15,8 +15,8 @@
 
 **ВНИМАНИЕ, ЧТО ВЫ ДЕЛАЕТЕ СО СВОИМ КОНТРОЛЛЕРОМ, ВЫ ДЕЛАЕТЕ НА СВОЙ СТРАХ И РИСК!!**
 
-# Подготовка
-
+# Подготовка и прошивка:
+**Внимание, если у вас материнка с UEFI то данный гайд может не сработать! В качестве альтернативы используйте этот гайд:** [techmattr.wordpress.com](https://techmattr.wordpress.com/2016/04/11/updated-sas-hba-crossflashing-or-flashing-to-it-mode-dell-perc-h200-and-h310/) 
 1) Скачиваете [Rufus](https://rufus.ie), [FreeDOS Boot Floppy](http://www.freedos.org/download/download/FD12FLOPPY.zip) и архив [LSI9211-8i](https://www.mediafire.com/file/6mtie10d9ud6675/LSI-9211-8i.zip/file);
 2) Форматируете через Rufus флешку в FreeDOS как на фото ниже;
 ![Фотка руфус](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/rufus.jpg?raw=true)
@@ -41,3 +41,8 @@
 **PS** Данный гайд в теории так же подходит для контроллера IBM M1015 и оригинального LSI MegaRAID 9240
 ![M1015](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/ibm%20m1015.jpg?raw=true)
 ![9240](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/9240.jpg?raw=true)
+
+
+# Ссылки:
+* [Оригинальный гайд](https://tylermade.net/2017/06/27/how-to-crossflash-perc-h310-to-it-mode-lsi-9211-8i-firmware-hba-for-freenas-unraid/);
+* [Альтернативный вариант прошивки на материнках с UEFI](https://techmattr.wordpress.com/2016/04/11/updated-sas-hba-crossflashing-or-flashing-to-it-mode-dell-perc-h200-and-h310/).
