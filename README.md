@@ -31,7 +31,7 @@
 ![Фотка empty](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/empty.jpg?raw=true)
 8) Вводите **megarec.exe -cleanflash 0** для зачистки прошивки и перезагрузите пк с последующей загрузкой в FreeDOS, для перезагрузки используйте комманду reboot
 9) После перезагрузки вводите **sas2flsh.exe -o -f 6GBPSAS.fw**;
-10) Вводите **s2fp19.exe -o -sasadd %ВАШ SAS Address%** %ВАШ SAS Address% - то что вы записали в 6 пункте, у меня же это **s2fp19.exe -o -sasadd 5с**;
+10) Вводите **s2fp19.exe -o -sasadd %ВАШ SAS Address%** %ВАШ SAS Address% - то что вы записали в 6 пункте, у меня же это **s2fp19.exe -o -sasadd 5с81f660dbbb1a00**;
 ![Фотка SAS Address](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/sasadd.jpg?raw=true)
 11) Перезагрузите пк с последующей загрузкой в FreeDOS, для перезагрузки используйте комманду reboot;
 12) После перезагрузки вводите **sas2flsh.exe -o -f 2118it.bin**, при прошивке вам будет задан вопрос: *Would you like to flash anyways? *, вводите y и нажмите *Enter*;
