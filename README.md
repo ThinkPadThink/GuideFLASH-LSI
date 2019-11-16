@@ -38,7 +38,7 @@
 13) Всё! перезагружайтесь в Windows/Linux и у вас он будет отображаться как надо в Windows: Dell HBA 6 Gbit/s, в Linux как-то так же. 
 
 
-**PS** Данный гайд в теории так же подходит для контроллера IBM M1015 и оригинального LSI MegaRAID 9240
+**PS** Данный гайд в теории так же подходит для контроллера IBM M1015 и оригинального LSI MegaRAID 9240.
 ![M1015](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/ibm%20m1015.jpg?raw=true)
 ![9240](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/9240.jpg?raw=true)
 
