@@ -20,8 +20,8 @@
 1) Скачиваете [Rufus](https://rufus.ie), [FreeDOS Boot Floppy](http://www.freedos.org/download/download/FD12FLOPPY.zip) и архив [LSI9211-8i](https://www.mediafire.com/file/6mtie10d9ud6675/LSI-9211-8i.zip/file);
 2) Форматируете через Rufus флешку в FreeDOS как на фото ниже;
 ![Фотка руфус](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/rufus.jpg?raw=true)
-3) Распаковываете архив с FreeDOS Boot Floppy на флешку с заменой, удаляете файл SETUP.BAT ;
-4) Распаковываете архив с LSI9211-8iна флешку с заменой;
+3) Распаковываете архив с FreeDOS Boot Floppy на флешку с заменой, удаляете файл SETUP.BAT;
+4) Распаковываете архив с LSI9211-8i на флешку с заменой;
 5) Выключаете пк, устанавливаете контроллер и запускаете пк с загрузкой в FreeDOS;
 6) Вводите комманду **megacli.exe -AdpAllInfo -aAll -page 20** через клавишу *Enter* прокручиваете до раздела  *HW Configuration* и запоминаете/фотографируете/записываете *SAS Address* как на фото, **в ином случае при дальнейших действиях вы получите кирпич заместо контроллера**;
 ![Фотка SAS Address](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/SAS%20Address.jpg?raw=true)
