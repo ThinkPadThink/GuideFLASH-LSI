@@ -17,7 +17,7 @@
 
 # Подготовка
 
-1) Скачиваете [Rufus](https://rufus.ie) и [FreeDOS Boot Floppy](http://www.freedos.org/download/download/FD12FLOPPY.zip), архив [LSI9211-8i]();
+1) Скачиваете [Rufus](https://rufus.ie), [FreeDOS Boot Floppy](http://www.freedos.org/download/download/FD12FLOPPY.zip) и архив [LSI9211-8i](https://www.mediafire.com/file/6mtie10d9ud6675/LSI-9211-8i.zip/file);
 2) Форматируете через Rufus флешку в FreeDOS как на фото ниже;
 ![Фотка руфус](https://github.com/ThinkPadThink/GuideFLASH-LSI/blob/master/rufus.jpg?raw=true)
 3) Распаковываете архив с FreeDOS Boot Floppy на флешку с заменой, удаляете файл SETUP.BAT ;
